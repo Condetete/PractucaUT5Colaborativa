@@ -7,7 +7,7 @@ package mipackage;
 
 /**
  *
- * @author El Mikel
+ * @author El Mikel papa
  */
 public class Main {
 
@@ -19,25 +19,25 @@ public class Main {
 		Account cuentita;
 		double saldo;
 
-		cuentita = new Account("Pepa Santana", "3333-1111-99-123456789");
+		cuentita = new Account("Pepa Santanass", "3333-1111-99-123456789");
 
 		try {
-			System.out.println("Ingreso en tu cuentilla");
-			cuentita.ingresar(1695);
+			System.out.println("Ingreso en tu cuentillass");
+			cuentita.ingresar(169577);
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
-			System.out.println("Fallo al ingresar la pasta");
+			System.out.println("Fallo al ingresar la pastas");
 		}
 
 		try {
 			cuentita.retirar(10);
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
-			System.out.println("Fallo al retirar los dineros");
+			System.out.println("Fallo al retirar los dineross");
 		}
 
 		try {
-			System.out.println("Ingreso en cuenta bancaria");
+			System.out.println("Ingreso en nuestra cuenta bancaria");
 			cuentita.ingresar(300);
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
@@ -45,7 +45,7 @@ public class Main {
 		}
 
 		saldo = cuentita.disponible();
-		System.out.println("El saldo actual es " + saldo);
+		System.out.println("El saldo actual ess " + saldo);
 	}
 
 }
