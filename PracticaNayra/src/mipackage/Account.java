@@ -11,6 +11,11 @@ package mipackage;
  */
 public class Account {
 
+	@Override
+	public String toString() {
+		return "Account [titular=" + titular + ", ccc=" + ccc + ", balance=" + balance + "]";
+	}
+
 	// Atributos de la clase Account
 	 private String titular;
 	 private String ccc;
