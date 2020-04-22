@@ -7,7 +7,7 @@ package mipackage;
 
 /**
  *
- * @author El Mikel papa
+ * @author El Mikel papas
  */
 public class Main {
 
